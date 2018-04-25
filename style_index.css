@@ -1,0 +1,151 @@
+/*Style sheet for the index.html page*/
+
+body {
+	background-image: url("images/background2.jpg");
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+#container{
+	background-color: white;
+	margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+#header {
+	background-image: url("images/background.png");
+	padding: 10px;
+	padding-left: 86px;
+	color: white;
+	text-align: center;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 40px;
+	height: auto;
+}
+
+#header h1 {
+	display: inline;
+}
+
+#header .cart {
+	display: inline;
+	width: 60px;
+	height: 60px;
+	float: right;
+}
+
+
+#search {
+    padding: 20px 0;
+	padding-left: 40px;
+	color: red;
+	font-weight: bold;
+	background-image: url("images/background.png");
+}
+
+#search .inputbox {
+	font-size: 24px;
+	width: 92%;
+	height: 24px;
+}
+
+
+#deparments {
+	background-image: url("images/background.png");
+	padding: 10px 0;
+
+}
+
+#deparments table {
+    font-family: arial, sans-serif;
+    width: 100%;
+	background-image: url("images/background.png");
+}
+
+#deparments td {
+    text-align: center;
+    padding: 8px;
+	width:50%;
+	color: white;
+	height: 300px;
+	font-size: 20px;
+
+}
+
+#deparments td:hover {
+	background-color: #ff1a1a;
+	transition: 1.0s;
+	border-radius: 100px;
+}
+
+#deparments img {
+	width: 200px;
+	height: 200px;
+}
+
+#deparments .icontext {
+	font-size: 50px;
+	position: relative;
+	width: 100%;
+}
+
+#deparments a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#nav {
+	width: 100%;
+	background-image: url("images/background.png");
+	height: 60px;
+}
+
+#nav a {
+	width: 100%;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: Century Gothic;
+
+}
+
+#nav a:hover {
+	background: #ffb3b3;
+	transition: 0.6s;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding-top: 10px;
+	margin: 0;
+	position: relative;
+}
+
+#nav li {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#nav .selected {
+	font-weight: bold;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-image: url("images/background.png");
+	color: white;
+	text-align: right;
+}

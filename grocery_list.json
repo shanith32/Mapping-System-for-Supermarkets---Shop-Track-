@@ -1,0 +1,282 @@
+{
+  "dairy" : {
+    "Chocolate Milk" : {
+      "aisle" : "3b",
+      "price" : 5,
+      "section" : "a",
+      "shelf" : 3
+    },
+    "butter" : {
+      "aisle" : "3b",
+      "price" : 1.5,
+      "section" : "b",
+      "shelf" : 1
+    },
+    "cheese" : {
+      "aisle" : "3b",
+      "price" : 2,
+      "section" : "c",
+      "shelf" : 2
+    },
+    "cream cheese" : {
+      "aisle" : "3b",
+      "price" : 1.25,
+      "section" : "c",
+      "shelf" : 1
+    },
+    "creamer" : {
+      "aisle" : "3b",
+      "price" : 1.88,
+      "section" : "b",
+      "shelf" : 3
+    },
+    "eggs" : {
+      "ailse" : "3b",
+      "price" : ".77",
+      "section" : "b",
+      "shelf" : 2
+    },
+    "milk" : {
+      "aisle" : "3b",
+      "price" : 4.5,
+      "section" : "a",
+      "shelf" : 2
+    },
+    "strawberry milk" : {
+      "aisle" : "3b",
+      "price" : 5,
+      "section" : "a",
+      "shelf" : 1
+    },
+    "yogurt" : {
+      "aisle" : 3,
+      "price" : ".7",
+      "section" : "c",
+      "shelf" : 3
+    }
+  },
+  "dry_goods" : {
+    "bread" : {
+      "aisle" : "2b",
+      "price" : 2,
+      "section" : "b",
+      "shelf" : 3
+    },
+    "cereal" : {
+      "aisle" : "2b",
+      "price" : 3.5,
+      "section" : "b",
+      "shelf" : 1
+    },
+    "chips" : {
+      "aisle" : "2b",
+      "price" : 3.49,
+      "section" : "a",
+      "shelf" : 3
+    },
+    "crackers" : {
+      "aisle" : "2b",
+      "price" : 2.5,
+      "section" : "a",
+      "shelf" : 2
+    },
+    "flour" : {
+      "aisle" : "2b",
+      "price" : 1.75,
+      "section" : "c",
+      "shelf" : 3
+    },
+    "pasta" : {
+      "aisle" : "2b",
+      "price" : 1.5,
+      "section" : "b",
+      "shelf" : 2
+    },
+    "rice" : {
+      "aisle" : "2b",
+      "price" : 3,
+      "section" : "b",
+      "shelf" : 1
+    },
+    "salt" : {
+      "aisle" : "2b",
+      "price" : 1.25,
+      "section" : "c",
+      "shelf" : 1
+    },
+    "sugar" : {
+      "aisle" : "2a",
+      "price" : 1.5,
+      "section" : "c",
+      "shelf" : 2
+    }
+  },
+  "frozen" : {
+    "frozen dough" : {
+      "aisle" : "3a",
+      "price" : 3,
+      "section" : "c",
+      "shelf" : 1
+    },
+    "frozen fruits" : {
+      "aisle" : "3a",
+      "price" : 1.15,
+      "section" : "c",
+      "shelf" : 2
+    },
+    "frozen vegtables" : {
+      "aisle" : "3a",
+      "price" : 1,
+      "section" : "c",
+      "shelf" : 3
+    },
+    "hot pockets" : {
+      "aisle" : "3a",
+      "price" : 4,
+      "section" : "a",
+      "shelf" : 3
+    },
+    "ice cream" : {
+      "aisle" : "3a",
+      "price" : 4,
+      "section" : "b",
+      "shelf" : 2
+    },
+    "ice cream sandwhich" : {
+      "aisle" : "3a",
+      "price" : 2,
+      "section" : "b",
+      "shelf" : 1
+    },
+    "pizza" : {
+      "aisle" : "3a",
+      "price" : 1.75,
+      "section" : "a",
+      "shelf" : 2
+    },
+    "popsicles" : {
+      "aisle" : "3a",
+      "price" : 2.25,
+      "section" : "b",
+      "shelf" : 3
+    },
+    "tv dinner" : {
+      "aisle" : "3a",
+      "price" : 2.25,
+      "section" : "a",
+      "shelf" : 1
+    }
+  },
+  "meat" : {
+    "bacon" : {
+      "aisle" : "2a",
+      "price" : 6.75,
+      "section" : "b",
+      "shelf" : 2
+    },
+    "chicken breast" : {
+      "aisle" : "2a",
+      "price" : 3.18,
+      "section" : "c",
+      "shelf" : 2
+    },
+    "chicken legs" : {
+      "aisle" : "2a",
+      "price" : 1.67,
+      "section" : "c",
+      "shelf" : 3
+    },
+    "chicken wing" : {
+      "aisle" : "2a",
+      "price" : 1.57,
+      "section" : "c",
+      "shelf" : 1
+    },
+    "ground beef" : {
+      "aisle" : "2a",
+      "price" : 3.6,
+      "section" : "a",
+      "shelf" : 1
+    },
+    "ham" : {
+      "aisle" : "2a",
+      "price" : 3.75,
+      "section" : "b",
+      "shelf" : 1
+    },
+    "sausage" : {
+      "aisle" : "2a",
+      "price" : 3.35,
+      "section" : "b",
+      "shelf" : 3
+    },
+    "steak" : {
+      "aisle" : "2a",
+      "price" : 8.98,
+      "section" : "a",
+      "shelf" : 2
+    },
+    "tenderloin" : {
+      "aisle" : "2a",
+      "price" : 11.98,
+      "section" : "a",
+      "shelf" : 3
+    }
+  },
+  "produce" : {
+    "apple" : {
+      "aisle" : "1a",
+      "price" : 2.45,
+      "section" : "a",
+      "shelf" : 2
+    },
+    "avacado" : {
+      "aisle" : "1a",
+      "price" : ".95",
+      "section" : "c",
+      "shelf" : 3
+    },
+    "broccolli" : {
+      "aisle" : "1a",
+      "price" : ".95",
+      "section" : "b",
+      "shelf" : 2
+    },
+    "carrots" : {
+      "aisle" : "1a",
+      "price" : 1.15,
+      "section" : "b",
+      "shelf" : 3
+    },
+    "lettuce" : {
+      "aisle" : "1a",
+      "price" : 1.1,
+      "section" : "b",
+      "shelf" : 1
+    },
+    "peaches" : {
+      "aisle" : "1a",
+      "price" : 2.25,
+      "section" : "a",
+      "shelf" : 3
+    },
+    "potatos" : {
+      "aisle" : "1a",
+      "price" : 2.75,
+      "section" : "c",
+      "shelf" : 1
+    },
+    "strawberry" : {
+      "aisle" : "1a",
+      "price" : 2.5,
+      "section" : "a",
+      "shelf" : 1
+    },
+    "tomatos" : {
+      "aisle" : "1a",
+      "price" : 1.55,
+      "section" : "c",
+      "shelf" : 2
+    }
+  }
+}

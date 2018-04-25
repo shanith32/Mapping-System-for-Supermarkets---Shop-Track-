@@ -1,0 +1,113 @@
+<!-- Food Deparment Page -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title> Shop-Track: Food </title>
+		<link rel="stylesheet" type="text/css" href="style_food.css" /> <!-- Connecting the style sheet CSS file to the web page -->
+		<script type="text/javascript" src="script_main.js"></script> <!-- Connecting the JavaScript file to the web page -->
+
+		<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script> <!-- Connecting the JavaScript file to the
+																																										web page which gives access to the online database  -->
+		<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyDrYmt91z61yuzKxshSXeEUycm1I6nJtC8",
+	    authDomain: "shop-list-for-334.firebaseapp.com",
+	    databaseURL: "https://shop-list-for-334.firebaseio.com",
+	    projectId: "shop-list-for-334",
+	    storageBucket: "",
+	    messagingSenderId: "375493682188"
+	  	};
+	  firebase.initializeApp(config); // Initializing firebase according to function specifications
+		</script>
+
+
+		<!-- The function that separates website to pages -->
+		<script>
+		    function show(shown, hidden) {
+		      document.getElementById(shown).style.display='block';
+		      document.getElementById(hidden).style.display='none';
+		      return false;
+		}
+		</script>
+	</head>
+	<body>
+
+		<div id="container">  <!-- Main container contains all data of the web page -->
+
+			<div id="header"> <!-- Header container contains the name of the application -->
+				<h1> Shop-Track </h1>
+				<image class="cart" src="images/cart.png" alt="cart" onclick="return show('cart','content');"> <!-- Cart image to show the cart div -->
+			</div>
+
+			<div id="content"> <!-- Content container contains the body part of the web UI -->
+
+
+				<div id="food">
+					<h2> FOOD <br><br></h2>
+					<table> <!-- Table that contains all items in a list -->
+						<tr>
+							<th colspan="3"><center>FOOD ITEMS</center></th>
+						</tr>
+						<tr>
+							<td> <img src="images/food1.jpg" alt="pasta"></img> <br>
+							<input type ="button" value="Add Pasta" onclick="get(1);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+							<td> <img src="images/food2.jpg" alt="rice"></img> <br>
+							<input type ="button" value="Add Rice" onclick="get(2);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+							<td><img src="images/food3.jpg" alt="bread"></img> <br>
+							<input type ="button" value="Add Bread" onclick="get(3);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/food4.jpg" alt="cereal"></img> <br>
+							<input type ="button" value="Add Cereal" onclick="get(4);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+							<td><img src="images/food5.jpg" alt="chips"></img> <br>
+							<input type ="button" value="Add Chips" onclick="get(5);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+							<td><img src="images/food6.jpg" alt="crackers"></img> <br>
+							<input type ="button" value="Add Crackers" onclick="get(6);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/food7.jpg" alt="flour"></img> <br>
+							<input type ="button" value="Add Flour" onclick="get(7);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+							<td><img src="images/food8.jpg" alt="salt"></img> <br>
+							<input type ="button" value="Add Salt" onclick="get(8);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+							<td><img src="images/food9.jpg" alt="sugar"></img> <br>
+							<input type ="button" value="Add Sugar" onclick="get(9);" > <!-- Button to call the Get(q) that runs the IF statment -->
+							</td>
+						</tr>
+					</table>
+
+				</div>
+
+
+				<div id="nav"> <!-- Nav container contains the navigation though web pages -->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="cart">
+				 <h1> Cart </h1>
+				 <a href="food.html">-BACK-</a>
+				 <p id="box"></p>
+			</div>
+
+			<div id="footer"> <!-- Footer container contains the copyright information -->
+				Copyright &copy; 2017
+			</div>
+		</div>
+
+	</body>
+</html>

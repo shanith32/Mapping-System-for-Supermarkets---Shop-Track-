@@ -1,0 +1,83 @@
+<!-- Index Page -->
+
+<!--
+
+Nadika Bandara
+CSCI 334
+Shop-Track
+04/24/2018
+
+The following web application creates a web UI that allows users
+to input a list of shopping items and find out where those items
+are located inside a store. This application accesses an online
+database to print the necessary location information and prices of
+the selected items.
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Shop-Track </title>
+		<link rel="stylesheet" type="text/css" href="style_index.css" /> <!-- Connecting the style sheet CSS file to the web page -->
+		<script type="text/javascript" src="script_main.js"></script> <!-- Connecting the JavaScript file to the web page -->
+	</head>
+	<body>
+
+		<div id="container"> <!-- Main container contains all data of the web page -->
+
+			<div id="header"> <!-- Header container contains the name of the application -->
+				<h1> Shop-Track </h1>
+			</div>
+
+			<div id="content"> <!-- Content container contains the body part of the web UI -->
+				<div id="search">
+					<input class="inputbox" type="text" placeholder="Search for an Item..." value=""> <!-- A search bar to search shopping items -->
+					<button id="close-image"><img src="images/searchicon.png" width="24px" height="24px"></button> <!-- A button to start the searching process -->
+
+				</div>
+
+				<div id="deparments">
+					<table>
+						<tr>
+							<td>
+								<a href="food.html">
+									<img src="images/foodicon.png" alt="foodicon"></img>
+									<div class="icontext">FOOD</div>
+								</a>
+							</td>
+
+							<td> <img src="images/houseicon.png" alt="houseicon"></img>
+								 <div class="icontext">HOUSEHOLD </div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="images/healthicon.png" alt="healthicon"></img>
+								<div class="icontext"> HEALTH </div>
+							</td>
+
+							<td><img src="images/clothicon.png" alt="clothicon"></img>
+								<div class="icontext"> CLOTHING </div>
+							</td>
+						</tr>
+					</table>
+
+				</div>
+
+				<div id="nav"> <!-- Nav container contains the navigation though web pages -->
+					<ul>
+						<li><a class="selected" href="index.html">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="footer"> <!-- Footer container contains the copyright information -->
+				Copyright &copy; 2017
+			</div>
+		</div>
+
+	</body>
+</html>
